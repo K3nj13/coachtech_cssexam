@@ -182,8 +182,8 @@ a {
 .service {
   width:560px;
   margin-top:0;
-  margin-left:18%;
-  margin-bottom:80px;
+  margin:0 auto 80px;
+  
 }
 
 .service_logo {
@@ -426,6 +426,8 @@ table td {
 .recruit {
   display:flex;
   justify-content: center;
+  margin-bottom:70px;
+  
 }
 
 .recruit a {
@@ -433,23 +435,24 @@ table td {
 }
 
 .parent {
-  width:100%;
-  height:auto;
+  width:50%;
+  height:400px;
   text-align: center;
-  height: 230px;
   background: url(../img/recruit.png) no-repeat;
   color: white;
-  padding-top:130px;
+  padding-top:400px;
+  background-size: cover;
 }
 
 .parent2 {
-  width:100%;
+  width:50%;
+  height:400px;
   height:auto;
   text-align: center;
-  height: 230px;
+  padding-top:400px;
   background: url(../img/interview.png) no-repeat;
   color: white;
-  padding-top:130px;
+  background-size: cover;
 
 }
 
